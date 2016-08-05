@@ -54,14 +54,14 @@
 	$mail->isSMTP();                                      // Set mailer to use SMTP
 	$mail->Host = 'smtp.gmail.com';  // Specify main and backup SMTP servers
 	$mail->SMTPAuth = true;                               // Enable SMTP authentication
-	$mail->Username = 'info.fotografiaarte@gmail.com';                 // SMTP username
-	$mail->Password = 'fotografiarte';                           // SMTP password
+	$mail->Username = 'YOUR EMAIL';                 // SMTP username
+	$mail->Password = 'YOUR PASSWORD';                           // SMTP password
 	$mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
 	$mail->Port = 465;                                    // TCP port to connect to
 
-	$mail->setFrom('info.fotografiaarte@gmail.com', 'no-reply');
+	$mail->setFrom('EMAIL', 'no-reply');
 	$mail->addAddress($email, $name);     // Add a recipient
-	$mail->addReplyTo('no-reply@example.com', 'Information');
+	$mail->addReplyTo('EMAIL', 'Information');
 	// $mail->addCC('cc@example.com');
 	// $mail->addBCC('bcc@example.com');
 

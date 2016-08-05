@@ -5,10 +5,10 @@
 */
 class Database{
 	// private variables
-	private $username = 	'root';
-	private $password = 	'';
-	private $host = 		'localhost';
-	private $database = 	'cars';
+	private $username = 	'DATA BASE USER';
+	private $password = 	'DATA BASE PASSWORD';
+	private $host = 		'HOST';
+	private $database = 	'DATA BASE NAME';
 	protected $connection =  NULL;
 	/**
 	* Connect to the database
